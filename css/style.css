@@ -6,3 +6,15 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+/* header styles */
+.header {
+background-color: #f3f058;
+display: flex;
+justify-content: center;
+}
+
+
+/* projects section */
+.projects {
+background-color: rgb(111, 236, 194);
+}
