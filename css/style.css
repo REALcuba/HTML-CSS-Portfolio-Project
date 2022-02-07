@@ -12,26 +12,34 @@ background-color: #f3f058;
 display: flex;
 justify-content: center;
 }
-
+.headerText {
+    background-color: #4e72a1;
+    display: flex;
+    justify-content: center;
+}
 
 /* projects section */
 .projects {
-background-color: rgb(55, 175, 125);
+background-color: rgba(60, 190, 136, 0.747);
 display: flex;
-justify-content: space-evenly;
+justify-content: center;
 
 }
 .project{
     color:aliceblue;
 }
+.project:hover{
+    background-color: blue;
+}
 .projectSpacing{
-    padding: 10px;
+    padding: 30px;
     background-color: aqua;
 }
 /* first of child */
-li:first-child {
-    background: rgb(100, 100, 78);
+.project:first-child {
+    background: rgba(245, 229, 13, 0.973);
     width: 300px;
+    margin: 0;
   }
 
   /* footer */
