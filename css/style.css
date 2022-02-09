@@ -7,15 +7,30 @@
  * 
  */
 /* header styles */
-.header {
+.header{
+    display:flex;
+    margin: 50px 100px;
+    
+}
+
+.headerH1 {
 background-color: #f3f058;
 display: flex;
 justify-content: center;
+margin-left: auto;
+margin-right: auto;
 }
 .headerText {
-    background-color: #4e72a1;
-    display: flex;
+    background-color: #adcaf0;
     justify-content: center;
+}
+
+.profilePic{
+
+    align-items:flex-start;
+    width: 7rem;
+    height: auto;
+    border-radius: 20%;
 }
 
 /* projects section */
